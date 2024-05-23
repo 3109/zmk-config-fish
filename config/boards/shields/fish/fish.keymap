@@ -1,4 +1,3 @@
-// デフォルトキーマップ（US配列）
 // キーマップを更新する方法は https://o24.works/fish/guide を参照
 // 視覚的に編集するには https://o24.works/fish/editor を参照
 
@@ -93,9 +92,9 @@
 
         layer_math {
             bindings = <
-                        &kp N4      &kp N5      &kp N6      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LCTRL N1 &mt LALT N2 &mt LSHFT N3 &kp DOT           &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RCTRL STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp N7      &kp N8      &kp N9      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+&kp TILDE   &kp N0      &kp N4      &kp N5      &kp N6      &kp DOT             &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RCTRL STAR &kp FSLH &kp PRCNT 
+            &kp DLLR    &mt LCTRL N1 &mt LALT N2 &mt LSHFT N3                               &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
@@ -120,9 +119,9 @@
 
         layer_win_math {
             bindings = <
-                        &kp N4      &kp N5      &kp N6      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N1 &mt LALT N2 &mt LSHFT N3 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp N7      &kp N8      &kp N9      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+&kp TILDE   &kp N0      &kp N4      &kp N5      &kp N6      &kp DOT             &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &kp DLLR    &mt LGUI N1 &mt LALT N2 &mt LSHFT N3                                &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
